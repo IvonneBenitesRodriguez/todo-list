@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do List</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/afdd353a4f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+        <section class="list">
+                <article>
+                    <p class="titleApp">
+                        To Do List
+                    </p>
+                    <i class="fa-solid fa-arrows-rotate"></i>
+                </article>
+
+                <form id="displayTasks">
+                    <input type="text" id="task" placeholder="Add to your list" minlength="4" required>
+                    <i class="fa-solid fa-arrow-left"></i>
+                </form>
+                
+                <span id="outputList"></span>
+
+                <div class="btn-clear">    
+                     <input type="button" id="btn-clear-completed" value="Clear all completed">
+                </div>
+                
+        </section>
+    <script src="app.js"></script>
+</body>
+</html>

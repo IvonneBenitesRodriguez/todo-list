@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: gray;
+}
+
+.list {
+  background-color: #fff;
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  margin-left: 30vw;
+  width: 40vw;
+}
+
+article {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 52%;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  width: 100%;
+  height: 10vh;
+  border-bottom: 1px solid gray;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  padding-right: 10px;
+  gap: 60%;
+  padding-top: 10px;
+  width: 100%;
+  height: 6vh;
+}
+
+input[type=text]#task {
+  border: none;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-left: 20px;
+  height: 10px;
+  width: 100%;
+}
+
+input[type=text]#task:focus {
+  height: 5vh;
+  outline: none;
+}
+
+i.fa-solid.fa-arrow-left {
+  margin-right: 54px;
+}
+
+.btn-clear {
+  color: gray;
+  width: 100%;
+}
+
+input#btn-clear-completed {
+  width: 100%;
+  padding: 13px;
+  border: none;
+  color: gray;
+}
+
+li {
+  list-style-type: none;
+}
+
+span {
+  padding-left: 20px;
+  justify-content: space-around;
+}
+
+label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 3vh 1vw 1vh 1vw;
+  border-top: 1px solid #d9dde2;
+  width: 35vw;
+}
+
+.task-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.input-text {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.complete {
+  text-decoration: line-through;
+}
+
+p.titleApp {
+  padding-left: 20px;
+}
+
+i.fa-solid.fa-ellipsis-vertical {
+  padding-left: 200px;
+  font-size: 14px;
+}
